@@ -2,3 +2,12 @@
   margin: 0;
   padding: 0;
 }
+h1 {
+  font-size: 2em; /* 2 veces el tamaño de fuente del contenedor */
+}
+h3 {
+  font-size: 1.2em; 
+}
+p{
+   font-size: 1em;    
+}
