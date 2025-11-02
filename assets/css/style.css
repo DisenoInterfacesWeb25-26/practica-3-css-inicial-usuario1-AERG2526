@@ -4,6 +4,8 @@
 }
 h1 {
   font-size: 3em; /* 2 veces el tamaño de fuente del contenedor */
+  background-color: aqua;
+
 }
 h3 {
   font-size: 1.2em; 
