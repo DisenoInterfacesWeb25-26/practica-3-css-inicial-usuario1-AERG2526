@@ -4,12 +4,67 @@
 }
 h1 {
   font-size: 3em; /* 2 veces el tamaño de fuente del contenedor */
-  background-color: aqua;
-
+  color:#0077c2;
+  background-color: transparent 
+}
+h2 {
+  font-size: 1.8em; /* 2 veces el tamaño de fuente del contenedor */
+  color:red;
+  background-color: transparent 
 }
 h3 {
-  font-size: 1.2em; 
+  font-size: 1.2em;
+    color:black;
+    background-color: transparent 
 }
 p{
-   font-size: 1em;    
+   font-size: 1em;
+    color:black;
+    background-color: transparent   
 }
+nav{
+  color:black;
+  background-color: transparent   
+}
+nav li a{
+    color: red ;
+    background-color: transparent  
+
+}
+body{
+color:black;
+  background-color: transparent   
+}
+footer{
+color:black;
+  background-color: yellow   
+}
+aside div ul li a{
+color:mediumpurple;
+  background-color: transparent   
+}
+header div{
+  color:black;
+  background-color: yellow   
+}
+aside{
+color:black;
+  background-color: transparent   
+}
+adress{
+color:black;
+  background-color: transparent   
+}
+section article{
+color:black;
+  background-color: transparent   
+}
+form{
+  color:black;
+  background-color: transparent;
+}
+.main{
+color:white;
+background-color:magenta;
+}
+
