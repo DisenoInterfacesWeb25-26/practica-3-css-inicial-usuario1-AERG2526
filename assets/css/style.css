@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+       url('../fonts/Poppins-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,24 +16,28 @@
 h1 {
   font-size: 3em; /* 2 veces el tamaño de fuente del contenedor */
   color:#0077c2;
-  background-color: transparent 
+  background-color: transparent;
+  font-family: 'Poppins'
 }
 h2 {
   font-size: 1.8em; /* 2 veces el tamaño de fuente del contenedor */
   color:red;
-  background-color: transparent 
+  background-color: transparent; 
+  font-family: 'Poppins'
 }
 h3 {
   font-size: 1.2em;
     color:black;
-    background-color: transparent 
+    background-color: transparent;
+    font-family: 'Poppins'
 }
 p{
    font-size: 1em;
     color:black;
     background-color: transparent;
     text-indent: 50px; 
-    text-align :justify 
+    text-align :justify;
+    font-family: 'Poppins'
 }
 nav{
   color:black;
@@ -30,7 +45,8 @@ nav{
 }
 nav li a{
     color: red ;
-    background-color: transparent  
+    background-color: transparent;
+    font-size: 1em; 
 
 }
 body{
@@ -39,11 +55,14 @@ color:black;
 }
 footer{
 color:black;
-  background-color: yellow   
+  background-color: yellow;
+  font-family: 'Poppins';
+  font-size: 1.5em;  
 }
 aside div ul li a{
 color:mediumpurple;
-  background-color: transparent   
+  background-color: transparent;
+  font-size: 1em;   
 }
 header div{
   color:black;
@@ -68,15 +87,23 @@ form{
 .main{
 color:white;
 background-color:magenta;
-text-align:center
+text-align:center;
+font-family: 'Poppins';
+font-weight: bold;
+font-size: 1.2em;
 }
 .secundary{
   text-align:left;
+  font-family: 'Poppins';
+  font-size: 1.1em;
 }
 aside li a{
 line-height: 30px;
 }
 aside ul{
   vertical-align:top;
-
+}
+caption{
+  font-family: 'Poppins';
+  font-size: 1.5em;
 }
