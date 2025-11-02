@@ -113,12 +113,11 @@ line-height: 30px;
 aside ul{
   vertical-align:top;
 }
-caption{
+/*caption{
   font-family: 'Poppins';
   font-size: 0.55em;
-  caption-side: bottom;
   color: black
-}
+}*/
 
 nav .menu ul {
   list-style: none;
@@ -226,17 +225,22 @@ td, th {
   }
 .contenedor-servicios {
   display: flex;
-  
   align-items: stretch;
   gap: 2em;
   width: 100%;
   padding: 2em;
   font-family: 'Poppins', sans-serif;
 }
-/* Tabla dentro del artículo */
-article {
-  flex: 3;
+.titulo-tabla {
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 600;
+  color:black;
+  margin-top: 1em;
+  font-family: 'Poppins', sans-serif;
 }
+
+
 
 
 
