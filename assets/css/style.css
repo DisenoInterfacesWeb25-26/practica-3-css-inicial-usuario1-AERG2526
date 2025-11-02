@@ -20,7 +20,9 @@ h3 {
 p{
    font-size: 1em;
     color:black;
-    background-color: transparent   
+    background-color: transparent;
+    text-indent: 50px; 
+    text-align :justify 
 }
 nav{
   color:black;
@@ -66,5 +68,15 @@ form{
 .main{
 color:white;
 background-color:magenta;
+text-align:center
 }
+.secundary{
+  text-align:left;
+}
+aside li a{
+line-height: 30px;
+}
+aside ul{
+  vertical-align:top;
 
+}
