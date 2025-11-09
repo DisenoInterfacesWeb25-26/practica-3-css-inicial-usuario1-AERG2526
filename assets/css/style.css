@@ -5,10 +5,8 @@
   src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
        url('../fonts/Poppins-Regular.woff') format('woff');
   font-weight: 400;
-  font-style: normal;
-  font-weight: bold;
+  font-style: normal; 
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +16,6 @@ h1 {
   color:#0077c2;
   background-color: transparent;
   font-family: 'Poppins'
-
 }
 h2 {
   font-size: 1.8em; 
@@ -28,9 +25,9 @@ h2 {
 }
 h3 {
   font-size: 1.2em;
-    color:black;
-    background-color: transparent;
-    font-family: 'Poppins'
+  color:black;
+  background-color: transparent;
+  font-family: 'Poppins'
 }
 p{
    font-size: 1em;
@@ -40,8 +37,7 @@ p{
     text-align :justify;
     font-family: 'Poppins'
 }
-nav{
-  
+nav{ 
   color:black;
   background-color: transparent   
 }
@@ -49,7 +45,6 @@ nav li a{
     color: red ;
     background-color: transparent;
     font-size: 1em; 
-
 }
 body{
 color:black;
@@ -78,10 +73,6 @@ color:black;
   padding: 1em;
   font-family: 'Poppins', sans-serif; 
 }
-adress{
-color:black;
-  background-color: transparent   
-}
 section article{
 color:black;
   background-color: transparent;
@@ -103,17 +94,14 @@ form fieldset {
   padding: 15px;
   border-radius: 8px;
 }
-
-
 .main{
 color:white;
 text-align:center;
 font-family: 'Poppins';
 font-weight: bold;
 font-size: 1.2em;
-
 }
-.secundary{
+.secondary{
   text-align:left;
   font-family: 'Poppins';
   font-size: 1.1em;
@@ -145,7 +133,6 @@ nav .menu ul{
   gap: 1em; 
   justify-content: center;
 }
-
 nav .menu ul li a{
   display: inline-block;
   padding: 0.6em 1.2em;
@@ -162,7 +149,6 @@ nav .menu li a:hover{
 nav .menu li a:active{
   background-color: yellow;
 }
-
 section{
 	margin:40px 0px 300px 0px;
 }
@@ -170,14 +156,12 @@ article{
 	width: 75%;
 	padding:120px 0px 30px 25px;
 }
-
 .contenedor {
   display: flex;
   width: 100%;
   gap: 2em;
   align-items: flex-start;
 }
-
 .cabecera{
  display: flex;
   align-items: center;      
@@ -267,9 +251,6 @@ tr:nth-child(even) {
 }
 tr:nth-child(odd) {
 	background-color: #95a72f;
-}
-p>a:hover{
-  color:orange;
 }
 input {
    -webkit-box-sizing: border-box;
