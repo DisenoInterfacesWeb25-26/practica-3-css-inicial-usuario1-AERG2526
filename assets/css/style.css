@@ -107,8 +107,12 @@ font-size: 1.2em;
   font-size: 1.1em;
   table-layout: auto;
 }
-aside li a{
+aside li a:hover{
+background-color:orange;
 line-height: 30px;
+}
+aside li a:active{
+background-color: yellow;
 }
 aside ul{
   vertical-align:top;
@@ -119,7 +123,7 @@ aside ul{
   color: black
 }*/
 
-nav .menu ul {
+nav .menu ul{
   position:fixed;
   list-style: none;
   margin: 0;
@@ -130,7 +134,7 @@ nav .menu ul {
   justify-content: center;
 }
 
-nav .menu ul li a {
+nav .menu ul li a{
   display: inline-block;
   padding: 0.6em 1.2em;
   background-color: #6dbe45;
@@ -140,8 +144,11 @@ nav .menu ul li a {
   border-radius: 6px;
   font-family: 'Poppins', sans-serif;
 }
-nav .menu li a:hover {
-  background-color: orange;
+nav .menu li a:hover{
+  color: orange;
+}
+nav .menu li a:active{
+  background-color: yellow;
 }
 
 section{
@@ -166,14 +173,12 @@ article{
   gap: 2em;                  
   padding: 1em;
 }
-/* Contenedor con dos bloques horizontales */
 .contenedorfooter {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
 }
-/* Bloque izquierdo: nombre, enlaces y redes */
 .infofooter {
   width: 30%;
 }
@@ -183,14 +188,12 @@ article{
   font-weight: 600;
   margin-bottom: 0.5em;
 }
-.infofooter a {
+.infofooter a:hover {
   color:black;
   text-decoration: none;
   display: block;
   margin-bottom: 0.3em;
   font-size: 0.80rem;
-}
-.infofooter a:hover {
   text-decoration: underline;
 }
 .redessociales {
@@ -219,10 +222,9 @@ border-collapse: collapse;
 text-align: center; 
 font-family: 'Poppins', sans-serif;
 }
-/* Bordes y ajuste de celdas */
 td, th {
-  border: 2px solid #2EC1AC;        /* Borde visible con color DIW */
-  padding: 1em;                     /* Espacio interno para ajustar al texto */
+  border: 2px solid #2EC1AC;        
+  padding: 1em;                     
   }
 .contenedor-servicios {
   display: flex;
@@ -245,20 +247,18 @@ td, th {
    bottom: 20px;
    right: 20px;
 }
-
 table tr:first-child{
 	background-color:  red; 
 }
-
 tr:nth-child(even) {
 	background-color:  #c77715 ;
 }
-
 tr:nth-child(odd) {
 	background-color: #95a72f;
 }
-
-
+p>a:hover{
+  color:orange;
+}
 
 
 
