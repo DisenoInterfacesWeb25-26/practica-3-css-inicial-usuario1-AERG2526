@@ -24,22 +24,23 @@
             </div>
         </nav>
        
-        <article>
+    <article>
         <form>
             <fieldset>
-                <legend>Datos personales</legend>
-                <label for="nombreFormulario">Nombre y apellidos: </label>
-                <input id="nombreFormulario" type="text" size="40" maxlength="40" pattern="[A-Za-z0-9]" placeholder="Nombre y Apellidos" required><br><br>
-
+                <legend><h3>Datos personales</h3></legend>
+                
+                    <label for="nombreFormulario">Nombre y apellidos: </label>
+                    <input id="nombreFormulario" type="text" class="basic-input" size="40" maxlength="40" pattern="[A-Za-z0-9]" placeholder="Nombre y Apellidos" required><br><br>
+                          
                 <label for="email">Email: </label>
-                <input id="email" type="email" size="53" placeholder="ejemplo@correo.com" required><br><br>
+                <input id="email" type="email" class="basic-input" size="53" placeholder="ejemplo@correo.com" required><br><br>
 
                 <label for="Edad">Edad: </label>
-                <input id="edad" type="number" size="4" min="18" max="99" placeholder="número" required><br><br>
+                <input id="edad" type="number" class="shaded-input" size="4" min="18" max="99" placeholder="número" required><br><br>
 
                 
                 <label for="telefono">Teléfono: </label>
-                <input id="telefono" type="tel" size="9" maxlength="9" pattern="[0-9]" placeholder="xxxxxxxxx" required><br><br><br>
+                <input id="telefono" type="tel" class="hover-focus-input" size="9" maxlength="9" pattern="[0-9]" placeholder="xxxxxxxxx" required><br><br><br>
 
                 <label for="consulta">Consulta: </label><br>
                 <textarea rows="10" cols="50" placeholder="Mensaje" id="mensaje" required></textarea><br><br>
@@ -47,9 +48,9 @@
                 <label><input type="checkbox" name="politica" value="politica" required>Acepta politica de privacidad</label><br>
                 <label><input type="checkbox" name="cokkies" value="cokkies" required>Acepta politica de cookies</label><br>
             </fieldset>  
-            <input type="submit" value="Enviar">
+                <input type="submit" value="Enviar">
         </form>
-        </article>
+    </article>
 
         <section id="contacto">
             <h4><u>Contacto</u></h4>
