@@ -95,7 +95,6 @@ form{
 }
 .main{
 color:white;
-background-color:magenta;
 text-align:center;
 font-family: 'Poppins';
 font-weight: bold;
@@ -247,8 +246,17 @@ td, th {
    right: 20px;
 }
 
+table tr:first-child{
+	background-color:  red; 
+}
 
+tr:nth-child(even) {
+	background-color:  #c77715 ;
+}
 
+tr:nth-child(odd) {
+	background-color: #95a72f;
+}
 
 
 
